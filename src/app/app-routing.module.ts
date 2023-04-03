@@ -6,7 +6,7 @@ import { ServicioComponent } from './componentes/servicio/servicio.component';
 import { ProfesionalComponent } from './componentes/profesional/profesional.component';
 
 const routes: Routes = [
-  {path:'',redirectTo:'home', pathMatch: 'full'},
+  {path:'',redirectTo:'negocios', pathMatch: 'full'},
   {path:'home',component: HomeComponent},
   {path:'negocios',component: NegocioComponent},
   {path:'servicios',component: ServicioComponent},

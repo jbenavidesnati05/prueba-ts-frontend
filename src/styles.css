@@ -1,0 +1,50 @@
+.btn-grad{
+  width: fit-content;
+  border-radius: calc(1em + 1vw);
+  padding: 0.4em 2em;
+  font-size: calc(.5em + .5vw);
+  color: white;
+  border: none;
+  background: linear-gradient(to left,#70F0CD,#4293F7 100%);
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-azul{
+  width: fit-content;
+  border-radius: calc(1em + 1vw);
+  padding: 0.4em 2em;
+  font-size: calc(.5em + .5vw);
+  color: white;
+  border: none;
+  background: #4293F7;
+}
+
+p{
+  font-weight: 500;
+  font-size: 1rem;
+  color: black;
+}
+
+.titulo1{
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+.titulo2{
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.textp{
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-bottom: 0
+}
+
+.textp2{
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin-bottom: 0
+}
+

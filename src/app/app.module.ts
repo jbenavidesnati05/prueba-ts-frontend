@@ -14,6 +14,11 @@ import { NegocioComponent } from './componentes/negocio/negocio.component';
 import { ProfesionalComponent } from './componentes/profesional/profesional.component';
 import { PresidenteComponent } from './componentes/presidente/presidente.component';
 import { TodoservyComponent } from './componentes/todoservy/todoservy.component';
+import { PremiumComponent } from './componentes/premium/premium.component';
+import { FrecuentesComponent } from './componentes/frecuentes/frecuentes.component';
+import { PagosComponent } from './componentes/pagos/pagos.component';
+import { AppserviciosComponent } from './componentes/appservicios/appservicios.component';
+import { AgendamientoComponent } from './componentes/agendamiento/agendamiento.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +33,12 @@ import { TodoservyComponent } from './componentes/todoservy/todoservy.component'
     NegocioComponent,
     ProfesionalComponent,
     PresidenteComponent,
-    TodoservyComponent
+    TodoservyComponent,
+    PremiumComponent,
+    FrecuentesComponent,
+    PagosComponent,
+    AppserviciosComponent,
+    AgendamientoComponent
   ],
   imports: [
     BrowserModule,
