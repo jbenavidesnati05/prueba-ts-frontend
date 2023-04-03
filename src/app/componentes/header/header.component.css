@@ -1,0 +1,9 @@
+.btn-grad{
+  width: fit-content;
+  border-radius: calc(1em + 1vw);
+  padding: .8em;
+  font-size: calc(.5em + .5vw);
+  color: white;
+  border: none;
+  background: linear-gradient(to left,#70F0CD,#4293F7 100%);
+}
